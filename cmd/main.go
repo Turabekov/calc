@@ -35,7 +35,7 @@ func main() {
 	userUpdated, err2 := controller.UpdateUser(2)
 	fmt.Println("Updated user:", userUpdated, "error:", err2)
 	fmt.Println(controller.GetListUser())
-	// Update User
+	// Delete User
 	err3 := controller.DeleteUser(2)
 	fmt.Println("error for deleting:", err3)
 	fmt.Println(controller.GetListUser())
